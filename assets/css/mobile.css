@@ -4,14 +4,13 @@ header {
     width: 1920px;
     height: 99px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--background);
 }
 
 header div {
     display: flex;
-    border-bottom: 1px solid;
 }
 
 header div ul:nth-child(1) {
@@ -19,9 +18,9 @@ header div ul:nth-child(1) {
     gap: 28px;
 }
 
-header div:nth-child(2) {
+/* header div:nth-child(2) {
     background-color: rgba(0,39,96, 0.20);
-}
+} */
 
 header div:nth-child(2) img , button {
     font-size: 1.6rem;
@@ -31,5 +30,9 @@ header div:nth-child(2) img , button {
 }
 
 header div button {
-    display: none;
+    display: none; 
+}
+
+header div ul li a {
+    font-size: 1.6rem;
 }
