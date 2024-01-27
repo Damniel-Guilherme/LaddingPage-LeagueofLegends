@@ -1,3 +1,6 @@
+@import url("/assets/css/components.css");
+
+
 * {
   margin: 0;
   padding: 0;
@@ -8,32 +11,40 @@
   outline: none;
   overflow-x: hidden;
   text-align: center;
+  font-size: 62.5%;
+  text-overflow: ellipsis;
 }
 
-/* tudo dentro do site  */
+main p {
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
 body {
   width: 100vw;
-  height: 100vh;
-  background-image: url("summonersrift.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url("/assets/imgs/backgroundSummonersrift.jpg");
   background-repeat: no-repeat;
   background-size: cover;
- 
+  background-position: center;
+  padding: 0 10px;
 }
 
-main {
-
-
-}
-
-/* o cabeçario no top, o menu */
 .top {
   width: 100vw;
   height: 60px;
   display: flex;
   align-items: center;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  padding: 0 2%;
   gap: 5px;
-  justify-content: space-around;
-  padding: 0px 10px;
   background-color: rgb(0, 0, 0);
   filter: alpha(opacity=50);
   opacity: 0.9;
@@ -41,56 +52,112 @@ main {
   -webkit-opacity: 0.9;
 }
 
-.logoriot {
-  display: flex;
-  gap: 5px;
-}
-
-.imgslogo {
+.logos {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
+  height: 100%;
+
 }
 
-img {
-  width: 35px;
-}
-
-.logoriot img:nth-child(2) {
-  /* background-color: rgba(128,128,128,.2); */
-  width: 20px;
-  border-radius: 10px;
-}
-
-/* personalização do svg */
-
-.svgRiot {
+.logoRiot {
   display: flex;
+  align-items: center;
   gap: 5px;
   fill: rgb(255, 255, 255);
   cursor: pointer;
+  overflow-y: hidden;
+  height: 100%;
+
 }
 
-/* personalização do svg quando o cursor do mouse passar por cima */
 
-.svgRiot:hover {
+.logoRiot:hover {
   fill: rgb(255, 0, 0);
   transition: all 3s ease;
 }
 
-/* personalização do svg seta para baixo ao lado do simbolo da riot games */
+.menuRiot {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100vw;
+  background-color: #2b2a29;
+  /* display: none; */
+  visibility: hidden;
+  transition: all 0.9 ease;
+  z-index: 999;
+  /* background-image: url(/assets/imgs/menuRiot.png);
+  background-size: contain;
+  background-repeat: no-repeat; */
+}
 
-.svgseta {
+.logoRiot:hover .menuRiot {
+  /* display: block; */
+  visibility: visible;
+}
+
+.menuRiotLogos {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .menuRiotImg {
+  width: 100vw;
+} */
+
+
+
+
+
+
+
+
+
+
+.logoSeta {
+  rotate: 270deg;
+  fill: #fff;
   width: 10px;
 }
 
-.svgRiot:hover .svgseta {
+.logoRiot:hover .logoSeta {
   rotate: 360deg;
-  transition: all 0.5s;
+  transition: all 0.5s ease;
+  fill: rgb(255, 0, 0);
 }
 
-/* menu do header */
+.logoLol {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+
+.logoLol > img {
+  width: 35px;
+  object-fit: contain;
+}
+
+.logoLol:hover .logoSeta {
+  rotate: 360deg;
+  transition: all 0.5s ease;
+  fill: rgb(255, 0, 0);
+  
+}
+
+
+/* nseioque é  */
+.svgsetamais {
+  width: 5px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  fill: #fff;
+}
+
+
+/* Menu do Header */
 
 .menu {
   display: flex;
@@ -99,50 +166,46 @@ img {
   color: #fff;
   gap: 10px;
   display: none;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  white-space: nowrap;
 }
 
-.menu li a {
+.menu::before {
+  content: '||';
+  color: #2b2a29;
+}
+
+.menu li {
+  cursor: pointer;
+  border-radius: 5px;
   padding: 10px;
-  border-radius: 10px;
-  padding-bottom: 5px;
+  
 }
 
-.menu li a:hover {
+.menu li:hover {
   background-color: #2b2a29;
-
   border-bottom: solid 3px rgb(11, 196, 226);
 }
 
-.mais {
-}
-.svgsetamais {
-  width: 5px;
-  margin-left: 5px;
-  margin-bottom: 3px;
-  fill: #fff;
+.headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
 }
 
-/* .centralistalista {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-} */
 
-/* .svgsetinha {
-    margin-left: 5px;
-} */
-
-/* LUPA PESQUISA */
+/* Caixa de Pesquisa */
 
 .search-box {
   z-index: 3;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
   top: 50%;
   right: 50%;
+  padding: 10px;
   border-radius: 10px;
   background-color: rgba(128, 128, 128, 0.2);
 }
@@ -152,8 +215,7 @@ img {
   background: none;
   outline: none;
   color: #fff;
-  padding: 0;
-  font-size: 16px;
+  font-size: 1.6rem;
   width: 0;
   transition: all 0.4s ease;
 }
@@ -168,42 +230,20 @@ img {
 }
 
 .search-box:hover > .search-txt {
-  padding-left: 10px;
-  width: 125px;
+  width: 100vw;
 }
 
-.search-lupa {
+.logoLupa {
+  width: 15px;
   fill: #fff;
 }
 
-.direito {
+/* Conteudo Principal */
+
+main {
   display: flex;
-  align-items: center;
-  justify-content: end;
-  /* width: 500px; */
-  gap: 5px;
-}
-
-.butoes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
-
-button {
-  background-color: rgba(128, 128, 128, 0.2);
-  color: #fff;
-  padding: 2px;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-button:nth-child(2) {
-  color: #2b2a29;
-  background-color: rgb(11, 196, 226);
+  flex-direction: column;
+  gap: 30px;
 }
 
 .principal {
@@ -212,79 +252,81 @@ button:nth-child(2) {
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  padding: 30px 0;
   width: 100vw;
 }
 
+.principal div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
 .logolol {
-  width: 300px;
+  margin-top: 30px;
+  width: 80%;
+  max-width: 700px;
 }
 
-.logos {
-    display: flex;
-  }
-
-
-
-.thresh {
-    margin-top: -50px;
-}
-
-/* .logothresh {
-    margin-top: -250px;
-    width: 900px;
-} */
-
-.logothresh {
-  width: 400px;
+.logoThresh {
+  width: 100%;
+  max-width: 900px;
 
 }
 
-.svgseta2 {
-  rotate: 270deg;
-  width: 10px;
-  fill: #fff;
-}
-
-.svgseta2:hover {
-  rotate: 0deg;
-  transition: all 1s ease;
-  fill: red;
-}
-
-.btnjogue {
-
-
-        background-color: rgba(128, 128, 128, 0.2);
-        color: #fff;
-        padding: 2px;
-        border: none;
-        border-radius: 5px;
-        font-weight: bold;
-        cursor: pointer;
-
-        padding: 10px;
-
-        color: #2b2a29;
-        background-color: rgb(11, 196, 226);
-}
-
-.bntdownload {
-    background-color: rgb(0, 255, 170);
-}
-
-.dispositivoson{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.dispositivosimg {
-  width: 400px;
+.logoDispositivos {
+  width: 100%;
+  max-width: 800px;
   object-fit: contain;
   clip-path: circle(50% at 50% 50%);
+}
+
+footer {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #a7a5a5;
+
+}
+
+footer p {
+  width: 90vw;
+  font-size: 1.6rem;
+  color: #a7a5a5;
+}
 
 
+@media only screen and (min-width: 1500px) {
+  .menu {
+    display: flex;
+  }
+  .menuRiotLogos {
+    flex-direction: row;
+  }
+  .search-box:hover > .search-txt {
+    width: 125px;
+  }
+  /* .logos {
+    width: auto;
+  } */
+  /* .headerRight {
+    width: auto;
+  } */
+  .principal .principalpc {
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 
-
+  }
+  .principalpc >div:nth-child(1) {
+    order: 1;
+  }
+  .logoThresh {
+    margin-top: -100px;
+  }
 }
