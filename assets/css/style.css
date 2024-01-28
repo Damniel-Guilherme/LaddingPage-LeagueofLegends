@@ -1,0 +1,504 @@
+@import url("/assets/css/components.css");
+@import url("/assets/css/fonts.css");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  box-sizing: border-box;
+  outline: none;
+  overflow-x: hidden;
+  text-align: center;
+  font-size: 62.5%;
+
+
+}
+
+button {
+  font-family: btn;
+  font-weight: bolder;
+}
+
+main p {
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url("/assets/imgs/backgroundSummonersrift.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 10px;
+}
+
+.top {
+  width: 100vw;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  padding: 0 2%;
+  gap: 5px;
+  background-color: rgb(0, 0, 0);
+  filter: alpha(opacity=50);
+  opacity: 0.9;
+  -moz-opacity: 0.9;
+  -webkit-opacity: 0.9;
+  border-bottom: solid 3px #252525;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 100%;
+
+}
+
+.logoRiot {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  fill: rgb(255, 255, 255);
+  cursor: pointer;
+  overflow-y: hidden;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+
+
+.logoRiot:hover {
+  fill: rgb(255, 0, 0);
+  transition: all 2s ease;
+  
+}
+
+.menuRiot {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100vw;
+  background-color: #2b2a29;
+  /* display: none; */
+  visibility: hidden;
+  transition: all 0.9 ease;
+  z-index: 999;
+  /* background-image: url(/assets/imgs/menuRiot.png);
+  background-size: contain;
+  background-repeat: no-repeat; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+.logoRiot:hover .menuRiot {
+  /* display: block; */
+  visibility: visible;
+  
+}
+
+.menuRiotLogos {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* .menuRiotImg {
+  width: 100vw;
+} */
+
+.logoSeta {
+  rotate: 270deg;
+  fill: #fff;
+  width: 10px;
+  transition: all 0.5s ease;
+}
+
+.logoRiot:hover .logoSeta {
+  rotate: 360deg;
+  transition: all 1s ease;
+  fill: rgb(255, 0, 0);
+}
+
+.logoLol {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+
+.logoLol > img {
+  width: 35px;
+  object-fit: contain;
+}
+
+.logoLol:hover .logoSeta {
+  rotate: 360deg;
+  transition: all 0.5s ease;
+  fill: rgb(255, 0, 0);
+  
+}
+
+/* nseioque é  */
+.svgsetamais {
+  width: 5px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  fill: #fff;
+}
+
+/* Menu do Header */
+
+.menu {
+  width: 100vw;
+  height: 100vh;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  /* display: none; */
+  /* align-items: center;
+  justify-content: center; */
+  color: #fff;
+  gap: 10px;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  white-space: nowrap;
+}
+/* 
+.menu::before {
+  content: '»';
+  margin-bottom: 8px;
+  color: #858584;
+  cursor: pointer;
+} */
+
+/* test */
+
+.menuHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100wh;
+  height: 100vh; */
+}
+
+.nav {
+  visibility: hidden;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: #000000;
+}
+
+a {
+  font-family: menu;
+  font-size: 1.7rem;
+}
+
+p {
+  font-family: explore;
+}
+
+
+.menu-toggle:checked ~ .nav{
+  visibility: visible;
+}
+
+.menu-toggle {
+  width: 1px;
+  opacity: 0;
+}
+
+.menu-toggle-label {
+  margin-right: 35px;
+}
+
+.menu-toggle-label::after {
+  content: '»';
+  font-size: 35px;
+  cursor: pointer;
+  width: 35px;
+  position: absolute;
+  top: 8px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+.menu-toggle:checked ~ .menu-toggle-label::after {
+  transition: all 0.3s ease-in-out;
+  rotate: 90deg;
+  top: 11px;
+  color: red;
+}
+
+
+
+/* test */
+
+.menu li {
+  background-color: #252525;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.menu li:hover {
+  background-color: #252525;
+  border-bottom: solid 3px rgb(11, 196, 226);
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+}
+
+/* Caixa de Pesquisa */
+
+.search-box {
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  right: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.6rem;
+  width: 0;
+  transition: all 0.4s ease;
+}
+
+.search-btn {
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.search-box:hover > .search-txt {
+  width: 100vw;
+  /* opacity: 0.9; */
+  padding: 0 20px;
+}
+
+.search-box:hover .top {
+  display: none;
+
+}
+
+
+
+
+/* .test {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  min-width: 405px;
+} */
+
+.logoLupa {
+  width: 15px;
+  fill: #fff;
+}
+
+/* Conteudo Principal */
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 0;
+  width: 100vw;
+}
+
+.principal div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logolol {
+  margin-top: 30px;
+  width: 80%;
+  max-width: 700px;
+}
+
+.logoThresh {
+  margin-top: -50px;
+  width: 100%;
+  max-width: 900px;
+
+}
+
+.logoDispositivos {
+  z-index: -1;
+  width: 100%;
+  max-width: 800px;
+  object-fit: contain;
+  clip-path: circle(50% at 50% 50%);
+}
+
+footer {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #a7a5a5;
+
+}
+
+footer p {
+  width: 90vw;
+  font-size: 1.6rem;
+  color: #a7a5a5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1500px) {
+  .menu li {
+    display: flex;
+  }
+  .menuRiotLogos {
+    flex-direction: row;
+  }
+
+  /* menu lista */
+  .nav {
+    visibility: visible;
+    /* background-color: red; */
+    width: auto;
+    height: auto;
+    position: unset;
+    padding-left: 20px;
+
+  }
+  .menu {
+    width: auto;
+    height: auto;
+    flex-direction: row;
+  }
+  .menu li {
+    background-color: transparent;
+  }
+  label {
+    opacity: 0;
+  }
+
+  .search-box:hover > .search-txt {
+    width: 125px;
+  }
+  /* .logos {
+    width: auto;
+  } */
+  /* .headerRight {
+    width: auto;
+  } */
+  .search-box:hover > .search-txt {
+    width: 125px;
+  }
+  .principal .principalpc {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .principalpc >div:nth-child(1) {
+    order: 1;
+  }
+  .logoThresh {
+    margin-top: -100px;
+  }
+  
+
+}

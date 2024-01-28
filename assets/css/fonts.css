@@ -1,0 +1,14 @@
+@font-face {
+  font-family: menu;
+  src: url(/assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: explore;
+  src: url(/assets/fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+  font-family: btn;
+  src: url(/assets/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
