@@ -1,7 +1,7 @@
-
 .botoesRight {
     display: flex;
     gap: 5px;
+    width: 50%;
 }
 
 button {
@@ -17,27 +17,36 @@ button {
     font-weight: bold;
     cursor: pointer;
     background: linear-gradient(315deg, rgb(11, 196, 226) 0%, rgb(44, 140, 194) 100%);
-    /* text-shadow: 3px 3px 25px rgba(3, 65, 128, 1);
-    box-shadow: rgba(0,0,0,0.1); */
+    text-shadow: 3px 3px 25px rgba(3, 65, 128, 1);
+    box-shadow: rgba(0,0,0,0.1);
 }
 
 button:hover {
     background: linear-gradient(315deg, rgb(11, 196, 226) 0%, rgb(101, 186, 236) 100%);
 }
 
-button:nth-child(2) {
+button:nth-child(1) {
     color: #fff;
     background: #2b2a29;
 }
 
-button:nth-child(2):hover {
+button:nth-child(1):hover {
     background: #514e4b;
 }
+
+button:nth-child(3) {
+    border-radius: 30px 10px;
+}
+
+
+
 
 
 
 
 
 @media only screen and (min-width: 1500px) {
-
+    .botoesRight{
+        width: auto;
+    }
 }
