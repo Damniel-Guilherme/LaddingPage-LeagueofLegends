@@ -12,3 +12,7 @@
   font-family: btn;
   src: url(/assets/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
 }
+
+h3 {
+  font-family: btn;
+}

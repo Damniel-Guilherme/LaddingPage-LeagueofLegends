@@ -1,12 +1,11 @@
 .botoesRight {
     display: flex;
     gap: 5px;
-    width: 50%;
 }
 
 button {
     font-size: 1.1rem;
-
+    font-weight: bolder;
     color: #2b2a29;
     width: 120px;
     height: 40px;
