@@ -80,17 +80,12 @@ body {
   overflow-y: hidden;
 
   transition: all 0.5s ease;
-}
-
-.logoRiotSvg {
 
 }
-
 
 .logoRiot:hover {
   fill: rgb(255, 0, 0);
   transition: all 2s ease;
-  
 }
 
 .menuRiot {
@@ -110,32 +105,56 @@ body {
   
 }
 
-.logoRiot:hover .menuRiot {
-  /* display: block; */
-  visibility: visible;
-  
+.menuHeaderRiot {
+ 
+  display: none;
+  z-index: 999;
+
+  background-color: red;
+  cursor: pointer;
 }
+
+.menuHeaderRiotLabelc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.logoSetaRiot {
+  rotate: 270deg;
+  fill: #fff;
+  width: 15px;
+  cursor: pointer; 
+  transition: all 0.3s ease-in-out;
+}
+
+.menuHeaderRiot:checked ~ .menuRiot {
+  visibility: visible;
+}
+
+.menuHeaderRiot:checked ~ .menuHeaderRiotLabelc .logoSetaRiot {
+  fill: rgb(9, 190, 0);
+}
+
+.menuHeaderRiot:checked ~ .menuHeaderRiotLabelc .logoRiotSvg {
+  fill: rgb(9, 190, 0);
+}
+
+
+
+
+
 
 .menuRiotLogos {
   display: flex;
   flex-direction: column;
-  
 }
 
-/* .menuRiotImg {
-  width: 100vw;
-} */
 
-.logoSeta {
-  rotate: 270deg;
-  fill: #fff;
-  width: 10px;
-  transition: all 0.3s ease-in-out;
-}
-
-.logoRiot:hover .logoSeta {
+.logoRiot:hover .logoSetaRiot {
   rotate: 360deg;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   fill: rgb(255, 0, 0);
 }
 
@@ -155,7 +174,6 @@ body {
   rotate: 360deg;
   transition: all 0.3s ease-in-out;
   fill: rgb(255, 0, 0);
-  
 }
 
 /* nseioque é  */
@@ -205,6 +223,7 @@ a {
 }
 
 p {
+
   z-index: -1;
   font-family: btn;
   font-weight: bolder;
@@ -361,8 +380,7 @@ main {
 }
 
 h3 {
-
-  padding: 0 20%;
+  padding: 0 10%;
 }
 
 footer {
@@ -395,7 +413,16 @@ footer p {
   .menuRiotLogos {
     flex-direction: row;
   }
-
+  .menuHeaderRiotLabelc:hover ~ .menuRiot {
+    visibility: visible;
+  }
+  .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc::after {
+    content: '🔒';
+    font-size: 1.5rem;
+  }
+  .menu-toggle-label {
+    display: none;
+  }
   /* menu lista */
   .nav {
     visibility: visible;
@@ -404,7 +431,6 @@ footer p {
     position: unset;
     padding-left: 20px;
     background-color: transparent;
-
   }
   .menu {
     width: auto;
@@ -414,9 +440,7 @@ footer p {
   .menu li {
     background-color: transparent;
   }
-  label {
-    opacity: 0;
-  }
+
 
   .search-box:hover > .search-txt {
     width: 125px;
