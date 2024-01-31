@@ -1,6 +1,7 @@
 /* header */
 
 .top {
+
     width: 100vw;
     height: 65px;
     display: flex;
@@ -14,7 +15,11 @@
     opacity: 0.9;
     -moz-opacity: 0.9;
     -webkit-opacity: 0.9;
+
     border-bottom: solid 3px rgb(11, 196, 226);
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .logos {
@@ -22,33 +27,42 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    min-width: 100px;
-    min-height: 40px;
+    /* provisorio */
+    /* min-width: 100px;
+    min-height: 40px; */
 
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .logoRiot {
+    background-color: red;
+    /* provisorio */
+    height: 65px;
     display: flex;
     align-items: center;
     gap: 5px;
     fill: rgb(255, 255, 255);
     cursor: pointer;
     overflow-y: hidden;
+    overflow-x: hidden;
 
     transition: all 0.5s ease;
 
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-.logoRiot:hover {
-    fill: rgb(255, 0, 0);
-    transition: all 2s ease;
-}
+
 
 .menuRiot {
+    
     position: absolute;
     top: 60px;
     left: 0;
-    width: 100vw;
+    /* provisorio */
+    width: 50vw;
     background-color: #2b2a29;
     /* display: none; */
     visibility: hidden;
@@ -58,7 +72,10 @@
     background-size: contain;
     background-repeat: no-repeat; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: solid 3px rgb(11, 196, 226);
 
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .menuHeaderRiot {
@@ -68,6 +85,9 @@
 
     background-color: red;
     cursor: pointer;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .menuHeaderRiotLabelc {
@@ -75,6 +95,10 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    height: 100%;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .logoSetaRiot {
@@ -83,50 +107,88 @@
     width: 15px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-.menuHeaderRiot:checked~.menuRiot {
+.menuHeaderRiot:checked~.menuRiot , .menuRiot:hover {
     visibility: visible;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
+
 
 .menuHeaderRiot:checked~.menuHeaderRiotLabelc .logoSetaRiot {
     fill: rgb(9, 190, 0);
     rotate: 0deg;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .menuHeaderRiot:checked~.menuHeaderRiotLabelc .logoRiotSvg {
     fill: rgb(9, 190, 0);
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .menuRiotLogos {
     display: flex;
     flex-direction: column;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* provisorio */
+.menuRiotLogos > img {
+    width: 40%;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 
-.logoRiot:hover .logoSetaRiot {
+
+
+
+
+
+
+
+
+
+
+.logoLol:hover .logoSeta {
     rotate: 360deg;
     transition: all 0.3s ease;
     fill: rgb(255, 0, 0);
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .logoLol {
     display: flex;
     gap: 5px;
     cursor: pointer;
+
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .logoLol>img {
     width: 35px;
     object-fit: contain;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-.logoLol:hover .logoSeta {
-    rotate: 360deg;
-    transition: all 0.3s ease-in-out;
-    fill: rgb(255, 0, 0);
-}
+
 
 /* nseioque é  */
 .svgsetamais {
@@ -134,6 +196,9 @@
     margin-left: 5px;
     margin-bottom: 3px;
     fill: #fff;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /* Menu do Header */
@@ -149,6 +214,9 @@
     font-size: 3.5rem;
     font-weight: bolder;
     white-space: nowrap;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .menuHeader {
@@ -158,6 +226,9 @@
     justify-content: center;
     /* width: 100wh;
     height: 100vh; */
+
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -167,15 +238,20 @@
     top: 70px;
     left: 0;
     background-color: rgba(0, 0, 0);
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 a {
     font-family: menu;
     font-size: 1.7rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 p {
-
+    overflow-y: hidden;
+    overflow-x: hidden;
     z-index: -1;
     font-family: btn;
     font-weight: bolder;
@@ -185,15 +261,21 @@ p {
 
 .menu-toggle:checked~.nav {
     visibility: visible;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .menu-toggle {
     width: 1px;
     opacity: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .menu-toggle-label {
     margin-right: 35px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .menu-toggle-label::after {
@@ -205,15 +287,21 @@ p {
     top: 12px;
     margin-right: 10px;
     transition: all 0.3s ease-in-out;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .menu-toggle:checked~.menu-toggle-label::after {
+    overflow-y: hidden;
+    overflow-x: hidden;
     rotate: 90deg;
     top: 14px;
     color: red;
 }
 
 .menu li {
+    overflow-y: hidden;
+    overflow-x: hidden;
     background-color: #252525;
     height: 50px;
 
@@ -226,19 +314,28 @@ p {
 }
 
 .menu li:hover {
+    overflow-y: hidden;
+    overflow-x: hidden;
     background-color: #252525;
     border-bottom: solid 3px rgb(11, 196, 226);
 }
 
 .headerRight {
+    overflow-y: hidden;
+    overflow-x: hidden;
     display: flex;
     align-items: center;
     justify-content: end;
     gap: 5px;
+    /* test */
+    overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .search-box {
-    z-index: 3;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 999;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,6 +348,8 @@ p {
 }
 
 .search-txt {
+    overflow-y: hidden;
+    overflow-x: hidden;
     border: none;
     background: none;
     outline: none;
@@ -261,6 +360,8 @@ p {
 }
 
 .search-btn {
+    overflow-y: hidden;
+    overflow-x: hidden;
     z-index: 999;
     display: flex;
     align-items: center;
@@ -271,16 +372,109 @@ p {
 }
 
 .search-box:hover>.search-txt {
+    overflow-y: hidden;
+    overflow-x: hidden;
     width: 100vw;
     padding: 0 20px;
 }
 
 .search-box:hover .top {
     display: none;
-
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .logoLupa {
     width: 15px;
     fill: #fff;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 1500px) {
+    /* pc */
+    .logoRiot:hover .logoSetaRiot {
+    rotate: 360deg;
+    transition: all 0.3s ease;
+    fill: rgb(255, 0, 0);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+
+    .logoRiot:hover {
+    fill: rgb(255, 0, 0);
+    transition: all 0.3s ease;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+    .menu li {
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+      .menuRiotLogos {
+        flex-direction: row;
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+      .menuHeaderRiotLabelc:hover ~ .menuRiot {
+        visibility: visible;
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+      .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc::after {
+        content: '🔒';
+        font-size: 1.5rem;
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+      .menu-toggle-label {
+        display: none;
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+      /* menu lista */
+      .nav {
+        visibility: visible;
+        overflow-x: hidden;
+        width: auto;
+        height: auto;
+        position: unset;
+        padding-left: 20px;
+        background-color: transparent;
+        overflow-y: hidden;
+      }
+      .menu {
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+      .menu li {
+        background-color: transparent;
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+    
+    
+      .search-box:hover > .search-txt {
+        width: 125px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+      .search-box:hover > .search-txt {
+        width: 125px;
+        overflow-x: hidden;
+      }
+      .principal .principal_logos {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    
+      }
 }

@@ -1,0 +1,16 @@
+footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(11, 196, 226);
+  
+  }
+  
+  footer p {
+
+    font-size: 1.6rem;
+    font-family: btn;
+    color: #a7a5a5;
+  }
+  

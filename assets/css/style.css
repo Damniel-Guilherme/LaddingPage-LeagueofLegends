@@ -8,35 +8,32 @@
 @import url(/assets/css/main.css);     /*  main  */
 @import url(/assets/css/footer.css);  /* footer */
 
-
+/* Configuraçãoes Globais */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  color: #fff;
-  box-sizing: border-box;
-  outline: none;
-  overflow-x: hidden;
   text-align: center;
   font-size: 62.5%;
+
+  /* nsei */
+  outline: none;
+  /* provisorio */
+  /* overflow-x: hidden; */
+
+  
+
+
+ 
+  /* Estilo da Página */
+  color: #fff;
 }
 
-button {
-  font-family: btn;
-  font-weight: bolder;
-}
-
-main p {
-  font-size: 1.9rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
+/* Configurações da Página */
 body {
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,137 +42,4 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 0 10px;
-}
-
-
-/* Conteudo Principal */
-
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.principal {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  padding: 30px 0;
-  width: 100vw;
-}
-
-.principal div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.logolol {
-  margin-top: 30px;
-  width: 80%;
-  max-width: 700px;
-}
-
-.logoThresh {
-  margin-top: -50px;
-  width: 100%;
-  max-width: 900px;
-
-}
-
-.logoDispositivos {
-  z-index: -1;
-  width: 100%;
-  max-width: 800px;
-  object-fit: contain;
-  clip-path: circle(50% at 50% 50%);
-}
-
-h3 {
-  padding: 0 10%;
-}
-
-footer {
-  width: 100vw;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top: 1px solid rgb(11, 196, 226);
-
-}
-
-footer p {
-  width: 90vw;
-  font-size: 1.6rem;
-  font-family: btn;
-  color: #a7a5a5;
-}
-
-
-
-
-
-/* Desktop */
-
-@media only screen and (min-width: 1500px) {
-  .menu li {
-    display: flex;
-  }
-  .menuRiotLogos {
-    flex-direction: row;
-  }
-  .menuHeaderRiotLabelc:hover ~ .menuRiot {
-    visibility: visible;
-  }
-  .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc::after {
-    content: '🔒';
-    font-size: 1.5rem;
-  }
-  .menu-toggle-label {
-    display: none;
-  }
-  /* menu lista */
-  .nav {
-    visibility: visible;
-    width: auto;
-    height: auto;
-    position: unset;
-    padding-left: 20px;
-    background-color: transparent;
-  }
-  .menu {
-    width: auto;
-    height: auto;
-    flex-direction: row;
-  }
-  .menu li {
-    background-color: transparent;
-  }
-
-
-  .search-box:hover > .search-txt {
-    width: 125px;
-  }
-  .search-box:hover > .search-txt {
-    width: 125px;
-  }
-  .principal .principal_logos {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-  }
-  .principal_logos > div:nth-child(1) {
-    order: 1;
-  }
-  .logoThresh {
-    margin-top: -100px;
-  }
 }
