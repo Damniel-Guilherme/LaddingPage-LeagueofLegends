@@ -10,7 +10,7 @@ main {
 
   .principal {
   
-    background-color: red;
+
 
     display: flex;
     align-items: center;
@@ -22,21 +22,23 @@ main {
     overflow-x: hidden;
   }
 
-  /* .principal div {
+/* .principal div {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    overflow-x: hidden;
-  } */
+  }  */
 
-  .principal_dispositivos {
-    background-color: black;
+ .principal_dispositivos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
   }
 
   .c_leagueoflegends {
     width: 100%;
-    background-color: blue;
+ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +51,7 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+
   }
 
   .logoLeagueoflegends {
@@ -67,7 +69,7 @@ main {
   }
 
   .logoDispositivos {
-    z-index: -1;
+    z-index: 1;
     width: 100%;
     max-width: 800px;
     object-fit: contain;
@@ -87,7 +89,15 @@ h3 {
 }
 
 @media only screen and (min-width: 1500px) {
-
+  .principal .principal_logos {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
   .principal_logos > div:nth-child(1) {
     order: 1;
   }

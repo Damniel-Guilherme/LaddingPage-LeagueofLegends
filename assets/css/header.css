@@ -1,12 +1,10 @@
 /* header */
 
 .top {
-
     width: 100vw;
     height: 65px;
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
     justify-content: space-between;
     padding: 0 2%;
     gap: 5px;
@@ -15,11 +13,7 @@
     opacity: 0.9;
     -moz-opacity: 0.9;
     -webkit-opacity: 0.9;
-
     border-bottom: solid 3px rgb(11, 196, 226);
-
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 .logos {
@@ -30,10 +24,6 @@
     /* provisorio */
     /* min-width: 100px;
     min-height: 40px; */
-
-
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 .logoRiot {
@@ -206,7 +196,7 @@
 .menu {
     width: 100vw;
 
-    padding: 5px 10px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     color: #fff;
@@ -226,13 +216,11 @@
     justify-content: center;
     /* width: 100wh;
     height: 100vh; */
-
     overflow-y: hidden;
     overflow-x: hidden;
 }
 
 .nav {
-
     visibility: hidden;
     position: absolute;
     top: 65px;
@@ -240,6 +228,7 @@
     background-color: rgba(0, 0, 0);
     overflow-y: hidden;
     overflow-x: hidden;
+    border-radius: 10px;
 }
 
 a {
@@ -465,15 +454,6 @@ p {
       }
       .search-box:hover > .search-txt {
         width: 125px;
-        overflow-x: hidden;
-      }
-      .principal .principal_logos {
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        overflow-y: hidden;
         overflow-x: hidden;
       }
 }
