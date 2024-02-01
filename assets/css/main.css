@@ -1,64 +1,83 @@
 /* Conteudo Principal */
 
 main {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 30px;
     overflow-x: hidden;
-  }
-  
+}
+
   .principal {
+  
+    background-color: red;
+
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
     padding: 30px 0;
-    width: 100vw;
+    /* width: 100vw; */
     overflow-x: hidden;
   }
-  
-  .principal div {
+
+  /* .principal div {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     overflow-x: hidden;
+  } */
+
+  .principal_dispositivos {
+    background-color: black;
+  }
+
+  .c_leagueoflegends {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    gap: 10px;
+  }
+
+  .principal_logos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+  }
+
+  .logoLeagueoflegends {
+    /* margin-top: 30px; */
+    /* width: 70%; */
+    width: 100%;
+    max-width: 600px;
 
   }
-  
-  .logoLeagueoflegends {
-    overflow-x: hidden;
-    margin-top: 30px;
-    width: 80%;
-    max-width: 700px;
-    
-  }
-  
+
   .logoThresh {
-    
-    margin-top: -50px;
+    /* width: 70%; */
     width: 100%;
-    max-width: 720px;
-  
-    
-  
+    max-width: 800px;
   }
-  
+
   .logoDispositivos {
-    overflow-x: hidden;
     z-index: -1;
     width: 100%;
     max-width: 800px;
     object-fit: contain;
     clip-path: circle(50% at 50% 50%);
-    
   }
-  
+
   h3 {
     padding: 0 10%;
   }
-  
+
 main p {
   font-size: 1.9rem;
 }
