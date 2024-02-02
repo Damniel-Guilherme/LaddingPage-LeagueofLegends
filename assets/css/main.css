@@ -55,15 +55,12 @@ main {
   }
 
   .logoLeagueoflegends {
-    /* margin-top: 30px; */
-    /* width: 70%; */
     width: 100%;
     max-width: 600px;
 
   }
 
   .logoThresh {
-    /* width: 70%; */
     width: 100%;
     max-width: 800px;
   }

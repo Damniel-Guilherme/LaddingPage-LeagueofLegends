@@ -1,270 +1,121 @@
 /* header */
 
+/* H18 - header da página */
 .top {
     width: 100vw;
-    height: 65px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2%;
     gap: 5px;
-    background-color: rgba(0, 0, 0, 0.548);
+    padding: 0 2%;
     filter: alpha(opacity=50);
     opacity: 0.9;
     -moz-opacity: 0.9;
     -webkit-opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.548);
     border-bottom: solid 3px rgb(11, 196, 226);
 }
-
+/* H20 - logos riot e simbolo do lol */
 .logos {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    /* provisorio */
-    /* min-width: 100px;
-    min-height: 40px; */
 }
-
+/* H22 - logo da riot  */
 .logoRiot {
-    background-color: red;
-    /* provisorio */
     height: 65px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
     fill: rgb(255, 255, 255);
-    cursor: pointer;
-    overflow-y: hidden;
-    overflow-x: hidden;
 
-    transition: all 0.5s ease;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
-
-
-
-.menuRiot {
-    
-    position: absolute;
-    top: 60px;
-    left: 0;
-    /* provisorio */
-    width: 50vw;
-    background-color: #2b2a29;
-    /* display: none; */
-    visibility: hidden;
-    transition: all 0.9 ease;
-    z-index: 999;
-    /* background-image: url(/assets/imgs/menuRiot.png);
-    background-size: contain;
-    background-repeat: no-repeat; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border: solid 3px rgb(11, 196, 226);
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
+/* H24 - input menu riot */
 .menuHeaderRiot {
-
     display: none;
-    z-index: 999;
-
-    background-color: red;
-    cursor: pointer;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
+    z-index: 2;
 }
-
 .menuHeaderRiotLabelc {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
     height: 100%;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.logoSetaRiot {
-    rotate: 270deg;
-    fill: #fff;
-    width: 15px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.menuHeaderRiot:checked~.menuRiot , .menuRiot:hover {
-    visibility: visible;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-
-.menuHeaderRiot:checked~.menuHeaderRiotLabelc .logoSetaRiot {
-    fill: rgb(9, 190, 0);
-    rotate: 0deg;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.menuHeaderRiot:checked~.menuHeaderRiotLabelc .logoRiotSvg {
-    fill: rgb(9, 190, 0);
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.menuRiotLogos {
-    display: flex;
-    flex-direction: column;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-/* provisorio */
-.menuRiotLogos > img {
-    width: 40%;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.logoLol:hover .logoSeta {
-    rotate: 360deg;
-    transition: all 0.3s ease;
-    fill: rgb(255, 0, 0);
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.logoLol {
-    display: flex;
-    gap: 5px;
-    cursor: pointer;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.logoLol>img {
-    width: 35px;
-    object-fit: contain;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-
-
-/* nseioque é  */
-.svgsetamais {
-    width: 5px;
-    margin-left: 5px;
-    margin-bottom: 3px;
-    fill: #fff;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-/* Menu do Header */
-
-.menu {
-    width: 100vw;
-
-    padding: 20px 10px;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    gap: 10px;
-    font-size: 3.5rem;
-    font-weight: bolder;
-    white-space: nowrap;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.menuHeader {
-
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 100wh;
-    height: 100vh; */
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
-
-.nav {
-    visibility: hidden;
+/* menuRiot :checked visible menu menuRiot */
+.menuHeaderRiot:checked~.menuRiot{
+    visibility: visible;
+}
+/* menuRiot :checked dor do logoSvgRiot */
+.menuHeaderRiot:checked ~ .menuHeaderRiotLabelc .logoSvgRiot {
+    fill: rgb(255, 0, 0);
+}
+/* menuRiot :checked dor do logoSetaRiot */
+.menuHeaderRiot:checked ~ .menuHeaderRiotLabelc .logoSetaRiot {
+    fill: rgb(255, 0, 0);
+}
+/* H27 - logo riot */
+.logoSvgRiot {
+    width: 103px;
+    fill: #ffffff;
+}
+/* H34 - logo seta */
+.logoSetaRiot {
+    width: 10px;
+    fill: #ffffff;
+}
+/* H44 - menu riot input e hover */
+.menuRiot {
     position: absolute;
     top: 65px;
     left: 0;
-    background-color: rgba(0, 0, 0);
-    overflow-y: hidden;
-    overflow-x: hidden;
-    border-radius: 10px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: solid 3px rgb(11, 196, 226);
+    visibility: hidden;
+}
+/* H45 - menuRiot menu input div das imagens */
+.menuRiotLogos {
+    display: flex;
+    flex-direction: column;
+}
+/* H46/H47 - menuRiot menu fake imagens */
+.menuRiotLogos > img {
+    width: 100%;
 }
 
-a {
-    font-family: menu;
-    font-size: 1.7rem;
-    overflow-y: hidden;
-    overflow-x: hidden;
+/* H52 - logo do lol */
+.logoLol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
 }
-
-p {
-    overflow-y: hidden;
-    overflow-x: hidden;
-    z-index: -1;
-    font-family: btn;
-    font-weight: bolder;
-    opacity: 0.8;
+/* H53 - logo lol imagem */
+.logoLol > img {
+    width: 35px;
+    object-fit: contain;
 }
-
-
-.menu-toggle:checked~.nav {
-    visibility: visible;
-    overflow-y: hidden;
-    overflow-x: hidden;
+ /* H57 - menuHeader */
+.menuHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+/* H59 - .menu-toggle */
 .menu-toggle {
     width: 1px;
     opacity: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
+}
+/* .menu-toggle checked aparece o menu */
+.menu-toggle:checked~.nav {
+    visibility: visible;
 }
 
 .menu-toggle-label {
     margin-right: 35px;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 .menu-toggle-label::after {
@@ -308,6 +159,106 @@ p {
     background-color: #252525;
     border-bottom: solid 3px rgb(11, 196, 226);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav {
+    width: 100%;
+    padding: 10px;
+    visibility: hidden;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    background-color: rgba(0, 0, 0);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-radius: 10px;
+    border: solid 3px rgb(11, 196, 226);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 10px;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    white-space: nowrap;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+
+
+/* nseioque é  */
+.svgsetamais {
+    width: 5px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    fill: #fff;
+}
+
+/* Menu do Header */
+
+
+
+a {
+    font-family: menu;
+    font-size: 1.7rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+p {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: -1;
+    font-family: btn;
+    font-weight: bolder;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .headerRight {
     overflow-y: hidden;
