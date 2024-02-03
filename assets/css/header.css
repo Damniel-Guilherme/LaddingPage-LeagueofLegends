@@ -84,7 +84,6 @@
 .menuRiotLogos > img {
     width: 100%;
 }
-
 /* H52 - logo do lol */
 .logoLol {
     display: flex;
@@ -113,92 +112,38 @@
 .menu-toggle:checked~.nav {
     visibility: visible;
 }
-
+/* H58 - .menu-toggle-label */
 .menu-toggle-label {
     margin-right: 35px;
 }
-
+/* H58 - .menu-toggle-label */
 .menu-toggle-label::after {
     content: '»';
-    font-size: 30px;
-    cursor: pointer;
     width: 30px;
-    position: absolute;
     top: 12px;
+    position: absolute;
+    font-size: 30px;
     margin-right: 10px;
-    transition: all 0.3s ease-in-out;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
-
+/* menu-toggle:checked .menu-toggle-label */
 .menu-toggle:checked~.menu-toggle-label::after {
-    overflow-y: hidden;
-    overflow-x: hidden;
     rotate: 90deg;
     top: 14px;
     color: red;
 }
-
-.menu li {
-    overflow-y: hidden;
-    overflow-x: hidden;
-    background-color: #252525;
-    height: 50px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.menu li:hover {
-    overflow-y: hidden;
-    overflow-x: hidden;
-    background-color: #252525;
-    border-bottom: solid 3px rgb(11, 196, 226);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* H60 - nav */
 .nav {
     width: 100%;
-    padding: 10px;
-    visibility: hidden;
     position: absolute;
     top: 65px;
     left: 0;
-    background-color: rgba(0, 0, 0);
-    overflow-y: hidden;
-    overflow-x: hidden;
+    padding: 10px;
     border-radius: 10px;
+    background-color: rgba(0, 0, 0);
     border: solid 3px rgb(11, 196, 226);
+    visibility: hidden;
 }
-
+/* H61 - menu */
 .menu {
     display: flex;
     flex-direction: column;
@@ -207,204 +152,136 @@
     font-size: 3.5rem;
     font-weight: bolder;
     white-space: nowrap;
-
-    overflow-y: hidden;
-    overflow-x: hidden;
+}
+/* H62/95 - menu li */
+.menu li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #252525;
+}
+/* H62/95 - menu li com hover */
+.menu li:hover {
+    background-color: #252525;
+    border-bottom: solid 3px rgb(11, 196, 226);
+}
+/* H62/95 - menu li a */
+a {
+    font-family: menu;
+    font-size: 1.7rem;
 }
 
-
-
-
-/* nseioque é  */
-.svgsetamais {
+/* H88 - Seta li > Mais */
+.svgSetaMais {
     width: 5px;
     margin-left: 5px;
     margin-bottom: 3px;
     fill: #fff;
 }
-
-/* Menu do Header */
-
-
-
-a {
-    font-family: menu;
-    font-size: 1.7rem;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-p {
-    overflow-y: hidden;
-    overflow-x: hidden;
-    z-index: -1;
-    font-family: btn;
-    font-weight: bolder;
-    opacity: 0.8;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* H101 - .headerRight */
 .headerRight {
-    overflow-y: hidden;
-    overflow-x: hidden;
     display: flex;
     align-items: center;
     justify-content: end;
     gap: 5px;
-    /* test */
-    overflow-x: hidden;
-    overflow-x: hidden;
 }
-
+/* H102 - .search-box */
 .search-box {
-    overflow-x: hidden;
-    overflow-y: hidden;
-    z-index: 999;
     display: flex;
     align-items: center;
     justify-content: center;
     top: 50%;
     right: 50%;
+    z-index: 999;
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(128, 128, 128, 0.2);
     cursor: pointer;
 }
-
-.search-txt {
-    overflow-y: hidden;
-    overflow-x: hidden;
-    border: none;
-    background: none;
-    outline: none;
-    color: #fff;
-    font-size: 1.6rem;
-    width: 0;
-    transition: all 0.4s ease;
-}
-
-.search-btn {
-    overflow-y: hidden;
-    overflow-x: hidden;
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-}
-
-.search-box:hover>.search-txt {
+.search-box:hover > .search-txt {
     overflow-y: hidden;
     overflow-x: hidden;
     width: 100vw;
     padding: 0 20px;
 }
-
 .search-box:hover .top {
     display: none;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
-
+/* H103 - .search-txt */
+.search-txt {
+    width: 0;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.6rem;
+    transition: all 0.4s ease;
+}
+/* H104 - .search-btn */
+.search-btn {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    border-radius: 50%;
+}
+/* H105 - logoLupa */
 .logoLupa {
     width: 15px;
     fill: #fff;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
+/* DESKTOP */
 @media only screen and (min-width: 1500px) {
-    /* pc */
-    .logoRiot:hover .logoSetaRiot {
-    rotate: 360deg;
-    transition: all 0.3s ease;
-    fill: rgb(255, 0, 0);
-    overflow-y: hidden;
-    overflow-x: hidden;
-    }
-
+    /* H22 - .logoRiot:hover */
     .logoRiot:hover {
-    fill: rgb(255, 0, 0);
-    transition: all 0.3s ease;
-    overflow-y: hidden;
-    overflow-x: hidden;
+        fill: rgb(255, 0, 0);
     }
-    .menu li {
-        display: flex;
-        overflow-y: hidden;
-        overflow-x: hidden;
-      }
-      .menuRiotLogos {
-        flex-direction: row;
-        overflow-y: hidden;
-        overflow-x: hidden;
-      }
-      .menuHeaderRiotLabelc:hover ~ .menuRiot {
-        visibility: visible;
-        overflow-y: hidden;
-        overflow-x: hidden;
-      }
-      .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc::after {
+    .logoRiot:hover .logoSetaRiot {
+        rotate: 360deg;
+        fill: rgb(255, 0, 0);
+    }
+    /* H24/25 - .menuHeaderRiot checked e hover */
+    .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc::after {
         content: '🔒';
         font-size: 1.5rem;
-        overflow-y: hidden;
-        overflow-x: hidden;
-      }
-      .menu-toggle-label {
-        display: none;
-        overflow-y: hidden;
-        overflow-x: hidden;
-      }
-      /* menu lista */
-      .nav {
+    }
+    .menuHeaderRiotLabelc:hover ~ .menuRiot {
         visibility: visible;
-        overflow-x: hidden;
+    }
+    /* H44 - menuRiotLogos thresh e dispositivos */
+    .menuRiotLogos {
+        flex-direction: row;
+    }
+    .menu-toggle-label {
+        display: none;
+    }
+    .nav {
+        visibility: visible;
         width: auto;
         height: auto;
         position: unset;
         padding-left: 20px;
         background-color: transparent;
-        overflow-y: hidden;
-      }
-      .menu {
+    }
+    .menu {
         width: auto;
         height: auto;
         flex-direction: row;
-        overflow-y: hidden;
-        overflow-x: hidden;
-      }
-      .menu li {
-        background-color: transparent;
-        overflow-y: hidden;
-        overflow-x: hidden;
-      }
-    
-    
-      .search-box:hover > .search-txt {
+    }
+    .menu li {
+        display: flex;
+        background-color: transparent;;
+    }
+    .search-box:hover > .search-txt {
+        width: 125px;;
+    }
+    .search-box:hover > .search-txt {
         width: 125px;
-        overflow-y: hidden;
-        overflow-x: hidden;
-      }
-      .search-box:hover > .search-txt {
-        width: 125px;
-        overflow-x: hidden;
-      }
+    }
 }

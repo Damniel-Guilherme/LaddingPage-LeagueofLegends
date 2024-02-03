@@ -7,6 +7,14 @@ main {
     gap: 30px;
     overflow-x: hidden;
 }
+p {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: -1;
+  font-family: btn;
+  font-weight: bolder;
+  opacity: 0.8;
+}
 
   .principal {
   
