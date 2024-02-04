@@ -258,9 +258,11 @@ a {
     .menuRiotLogos {
         flex-direction: row;
     }
+    /* H58 .menu-togge-label */
     .menu-toggle-label {
         display: none;
     }
+    /* H60 - nav */
     .nav {
         visibility: visible;
         width: auto;
@@ -269,19 +271,19 @@ a {
         padding-left: 20px;
         background-color: transparent;
     }
+    /* H61 - menu */
     .menu {
         width: auto;
         height: auto;
         flex-direction: row;
     }
+    /* H62/95 - menu li */
     .menu li {
         display: flex;
         background-color: transparent;;
     }
+    /* h102 - .search-box:hover */
     .search-box:hover > .search-txt {
         width: 125px;;
-    }
-    .search-box:hover > .search-txt {
-        width: 125px;
     }
 }
