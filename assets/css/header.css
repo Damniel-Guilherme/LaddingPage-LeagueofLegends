@@ -131,12 +131,14 @@
     position: absolute;
     font-size: 30px;
     margin-right: 10px;
+    transition: all 0.3s ease;
 }
 /* menu-toggle:checked .menu-toggle-label */
 .menu-toggle:checked~.menu-toggle-label::after {
     rotate: 90deg;
     top: 14px;
     color: red;
+    transition: all 0.3s ease;
 }
 /* H60 - nav */
 .nav {
