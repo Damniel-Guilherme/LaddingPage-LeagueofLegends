@@ -33,9 +33,7 @@ main {
   max-width: 600px;
 }
 /* H126 Texto da div league of legends */
-p {
-  overflow-y: hidden;
-  overflow-x: hidden;
+h2 {
   z-index: -1;
   font-family: btn;
   font-weight: bolder;
