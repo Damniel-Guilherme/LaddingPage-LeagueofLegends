@@ -39,6 +39,7 @@ p {
   font-family: btn;
   font-weight: bolder;
   opacity: 0.8;
+  font-size: 1.9rem;
 }
 /* H127 - BUTTON IN COMPONENTES */
 /* Button no css dos componentes */
@@ -46,6 +47,8 @@ p {
 .principal_logos {
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 /* H132 - logo do thresh */
@@ -63,8 +66,9 @@ p {
 /* H136 - H3 da imagem dispositivos */
 h3 {
   padding: 0 10%;
+  font-size: 2rem;
 }
-
+/* H137 - .logoDispositivos */
 .logoDispositivos {
   z-index: -1;
   width: 100%;
@@ -72,30 +76,18 @@ h3 {
   object-fit: contain;
   clip-path: circle(50% at 50% 50%);
 }
-
-
-
-main p {
-  font-size: 1.9rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
+/* DESKTOP */
 @media only screen and (min-width: 1500px) {
+  /* H130 - .principal_logos */
   .principal .principal_logos {
     width: 100vw;
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    overflow-y: hidden;
-    overflow-x: hidden;
   }
+  /* H130 - troca as ordem das divs filhas */
   .principal_logos > div:nth-child(1) {
     order: 1;
   }
+  /* H132 - logo do thresh do main */
   .logoThresh {
     margin-top: -100px;
   }

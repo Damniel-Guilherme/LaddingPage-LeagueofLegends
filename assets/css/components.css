@@ -1,23 +1,24 @@
+
 .botoesRight {
     display: flex;
     gap: 5px;
+    min-width: 100px;
 }
 
 button {
+    width: 100px;
+    height: 40px;
     font-size: 1.1rem;
     font-weight: bolder;
-    color: #2b2a29;
-    /* provisorio */
-    /* width: 120px; */
-    height: 40px;
-    padding: 1px 2px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    color: #202020;
     background: linear-gradient(315deg, rgb(11, 196, 226) 0%, rgb(44, 140, 194) 100%);
     text-shadow: 3px 3px 25px rgba(3, 65, 128, 1);
     box-shadow: rgba(0,0,0,0.1);
+    font-family: btn;
 }
 
 button:hover {
@@ -35,22 +36,4 @@ button:nth-child(1):hover {
 
 button:nth-child(3) {
     border-radius: 30px 10px;
-}
-
-button {
-    font-family: btn;
-    font-weight: bolder;
-  }
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 1500px) {
-    .botoesRight{
-        width: auto;
-    }
 }
