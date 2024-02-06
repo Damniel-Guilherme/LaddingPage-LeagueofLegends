@@ -1,10 +1,6 @@
+/* componentes */
 
-.botoesRight {
-    display: flex;
-    gap: 5px;
-    min-width: 100px;
-}
-
+/* bottoes da página */
 button {
     width: 100px;
     height: 40px;
@@ -20,20 +16,26 @@ button {
     box-shadow: rgba(0,0,0,0.1);
     font-family: btn;
 }
-
+/* bottoes da página com hover*/
 button:hover {
     background: linear-gradient(315deg, rgb(11, 196, 226) 0%, rgb(101, 186, 236) 100%);
 }
-
+/* bottao iniciar com cor e hover dif */
 button:nth-child(1) {
     color: #fff;
     background: #2b2a29;
 }
-
 button:nth-child(1):hover {
     background: #514e4b;
 }
-
+/* botoes da pagina na area main com borda dif */
 button:nth-child(3) {
     border-radius: 30px 10px;
+}
+
+/* H113 - .botoesRight */
+.botoesRight {
+    display: flex;
+    gap: 5px;
+    min-width: 100px;
 }
