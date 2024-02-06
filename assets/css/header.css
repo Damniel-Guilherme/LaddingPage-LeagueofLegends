@@ -17,6 +17,7 @@
 }
 /* H20 - logos riot e simbolo do lol */
 .logos {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,6 +25,7 @@
 }
 /* H22 - logo da riot  */
 .logoRiot {
+
     height: 65px;
     display: flex;
     align-items: center;
@@ -47,11 +49,11 @@
 .menuHeaderRiot:checked~.menuRiot{
     visibility: visible;
 }
-/* menuRiot :checked dor do logoSvgRiot */
+/* menuRiot :checked cor do logoSvgRiot */
 .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc .logoSvgRiot {
     fill: rgb(255, 0, 0);
 }
-/* menuRiot :checked dor do logoSetaRiot */
+/* menuRiot :checked cor do logoSetaRiot */
 .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc .logoSetaRiot {
     fill: rgb(255, 0, 0);
 }
@@ -254,6 +256,10 @@ a {
     .menuHeaderRiotLabelc:hover ~ .menuRiot {
         visibility: visible;
     }
+    .menuRiot:hover {
+        visibility: visible;
+    }
+
     /* H44 - menuRiotLogos thresh e dispositivos */
     .menuRiotLogos {
         flex-direction: row;
