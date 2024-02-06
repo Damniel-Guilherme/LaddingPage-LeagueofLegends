@@ -25,8 +25,8 @@
                 <!-- logo da riot -->
                 <div class="logoRiot">
                     <!-- input do menu e label dos logos riot -->
-                    <input class="menuHeaderRiot" type="checkbox" name="menuHeaderRiot" id="menuHeaderRiot">
-                    <label for="menuHeaderRiot" class="menuHeaderRiotLabelc"> 
+                    <input class="menuHeaderRiot" type="checkbox" name="menuHeaderRiot" id="menuHeaderRiot" tabindex="1">
+                    <label for="menuHeaderRiot" class="menuHeaderRiotLabelc" tabindex="2"> 
                     <!-- svg riot e seta -->
                         <!-- logo riot -->
                         <svg class="logoSvgRiot" viewBox="0 0 587.93 165">
@@ -58,11 +58,12 @@
                 <!-- menu hamburguer no mobile e menu lista no desktop -->
                 <div class="menuHeader">
                     <!-- input menu dropdown/lista -->
-                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
-                    <label for="menu-toggle" class="menu-toggle-label"></label>
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle" tabindex="3">
+                    <label for="menu-toggle" class="menu-toggle-label" tabindex="4"></label>
                     <!-- nav e lista do menu -->
-                    <nav class="nav">
+                    <nav class="nav" role="navigation">
                         <ul class="menu">
+                            <li><a href="#" title="Página inicial">inicial</a></li>
                             <li><a href="#">O JOGO</a></li>
                             <li><a href="#">CAMPEÕES</a></li>
                             <li>

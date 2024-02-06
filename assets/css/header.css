@@ -17,7 +17,6 @@
 }
 /* H20 - logos riot e simbolo do lol */
 .logos {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,14 +24,12 @@
 }
 /* H22 - logo da riot  */
 .logoRiot {
-
     height: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
     fill: rgb(255, 255, 255);
-
 }
 /* H24 - input menu riot */
 .menuHeaderRiot {
@@ -44,6 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 /* menuRiot :checked visible menu menuRiot */
 .menuHeaderRiot:checked~.menuRiot{
@@ -51,21 +49,28 @@
 }
 /* menuRiot :checked cor do logoSvgRiot */
 .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc .logoSvgRiot {
-    fill: rgb(255, 0, 0);
+    fill: rgb(51, 255, 0);
+    transition: all 0.3s ease;
 }
 /* menuRiot :checked cor do logoSetaRiot */
 .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc .logoSetaRiot {
-    fill: rgb(255, 0, 0);
+    fill: rgb(51, 255, 0);
+    rotate: 0deg;
+    transition: all 0.3s ease;
 }
 /* H27 - logo riot */
 .logoSvgRiot {
     width: 103px;
+    height: 100%;
     fill: #ffffff;
+    transition: all 0.3s ease;
 }
 /* H34 - logo seta */
 .logoSetaRiot {
     width: 10px;
+    rotate: -90deg;
     fill: #ffffff;
+    transition: all 0.3s ease;
 }
 /* H44 - menu riot input e hover */
 .menuRiot {
@@ -154,6 +159,7 @@
     font-size: 3.5rem;
     font-weight: bolder;
     white-space: nowrap;
+    cursor: pointer;
 }
 /* H62/95 - menu li */
 .menu li {
@@ -241,12 +247,14 @@ a {
 /* DESKTOP */
 @media only screen and (min-width: 1500px) {
     /* H22 - .logoRiot:hover */
-    .logoRiot:hover {
+    .logoSvgRiot:hover {
         fill: rgb(255, 0, 0);
+        transition: all 0.3s ease;
     }
     .logoRiot:hover .logoSetaRiot {
-        rotate: 360deg;
+        rotate: 0deg;
         fill: rgb(255, 0, 0);
+        transition: all 0.3s ease;
     }
     /* H24/25 - .menuHeaderRiot checked e hover */
     .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc::after {
