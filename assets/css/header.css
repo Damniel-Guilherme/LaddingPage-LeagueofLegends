@@ -175,7 +175,6 @@ a {
     font-family: menu;
     font-size: 1.7rem;
 }
-
 /* H88 - Seta li > Mais */
 .svgSetaMais {
     width: 5px;
@@ -260,7 +259,6 @@ a {
     .menuRiot:hover {
         visibility: visible;
     }
-
     /* H44 - menuRiotLogos thresh e dispositivos */
     .menuRiotLogos {
         flex-direction: row;
@@ -277,6 +275,7 @@ a {
         position: unset;
         padding-left: 20px;
         background-color: transparent;
+        border: none;
     }
     /* H61 - menu */
     .menu {
