@@ -1,4 +1,4 @@
-# Landing page - League of Legends
+# Landing Page - League of Legends
 
 ## Descrição 📖
 
@@ -39,7 +39,7 @@ O objetivo central deste projeto é promover a aquisição e aprimoramento dos c
 
 ## Demonstração
 
-![Demonstração](https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Demonstra%C3%A7%C3%A3o.webp?token=GHSAT0AAAAAACMMOYQYBWTNULX6LBPPIMT4ZODXH4Q)
+![Demonstração](https://i.imgur.com/ip4BWc5.jpeg)
 
 ## Instalação ⚙️
 
@@ -81,10 +81,10 @@ Descreva os testes realizados para garantir a qualidade do projeto. Isso pode in
 
 ## Fotos do Projeto
 
-<img src="https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Foto%20do%20Projeto%20-%203.webp?token=GHSAT0AAAAAACMMOYQYVLVKWC4OFYVZ54RWZODXJKQ" width="550" height="300">  <img src="https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Foto%20do%20Projeto%20-%202.webp?token=GHSAT0AAAAAACMMOYQY2W56CTABGHP2DQGKZODXJKQ" width="550" height="300">
+<img src="https://i.imgur.com/EaFp2PJ.jpeg" width="550" height="300">  <img src="https://i.imgur.com/OTAtK0W.jpeg" width="550" height="300">
 
 
-| <img src="https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Foto%20do%20Projeto%20-%207.webp?token=GHSAT0AAAAAACMMOYQYQU6TSNC2AOLNYZ6MZODXJNA" width="200"> | <img src="https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Foto%20do%20Projeto%20-%205.webp?token=GHSAT0AAAAAACMMOYQYD3C3KCU3SMQ5T66QZODXJMA" width="200"> | <img src="https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Foto%20do%20Projeto%20-%206.webp?token=GHSAT0AAAAAACMMOYQZIT7P5FKOUJH375HAZODXJMQ" width="200"> |
+| <img src="https://i.imgur.com/GuHpsEM.jpeg" width="200"> | <img src="https://i.imgur.com/xUEkLw0.jpeg" width="200"> | <img src="https://i.imgur.com/HhUPp2i.jpeg" width="200"> |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Aprendizados 💡
