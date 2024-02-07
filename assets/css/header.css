@@ -15,7 +15,7 @@ header {
     -moz-opacity: 0.9;
     -webkit-opacity: 0.9;
     background-color: rgba(0, 0, 0, 0.548);
-    border-bottom: solid 3px rgb(11, 196, 226);
+    border-bottom: solid 3px var(--azul-claro)
 }
 /* H20 - logos riot e simbolo do lol */
 .logos {
@@ -31,7 +31,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    fill: rgb(255, 255, 255);
+    fill: var(--branco);
 }
 /* H24 - input menu riot */
 .menuHeaderRiot {
@@ -51,28 +51,28 @@ header {
 }
 /* menuRiot :checked cor do logoSvgRiot */
 .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc .logoSvgRiot {
-    fill: rgb(51, 255, 0);
     transition: all 0.3s ease;
+    fill: var(--verde);
 }
 /* menuRiot :checked cor do logoSetaRiot */
 .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc .logoSetaRiot {
-    fill: rgb(51, 255, 0);
     rotate: 0deg;
     transition: all 0.3s ease;
+    fill: var(--verde);
 }
 /* H27 - logo riot */
 .logoSvgRiot {
     width: 103px;
     height: 100%;
-    fill: #ffffff;
     transition: all 0.3s ease;
+    fill: var(--branco);
 }
 /* H34 - logo seta */
 .logoSetaRiot {
     width: 10px;
     rotate: -90deg;
-    fill: #ffffff;
     transition: all 0.3s ease;
+    fill: var(--branco);
 }
 /* H44 - menu riot input e hover */
 .menuRiot {
@@ -81,7 +81,7 @@ header {
     left: 0;
     z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border: solid 3px rgb(11, 196, 226);
+    border: solid 3px var(--azul-claro);
     visibility: hidden;
 }
 /* H45 - menuRiot menu input div das imagens */
@@ -143,8 +143,8 @@ header {
 .menu-toggle:checked~.menu-toggle-label::after {
     rotate: 90deg;
     top: 14px;
-    color: red;
     transition: all 0.3s ease;
+    color: var(--vermelho);
 }
 /* H60 - nav */
 .nav {
@@ -154,8 +154,8 @@ header {
     left: 0;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0);
-    border: solid 3px rgb(11, 196, 226);
+    background-color: var(--preto);
+    border: solid 3px var(--azul-claro);
     visibility: hidden;
 }
 /* H61 - menu */
@@ -177,12 +177,12 @@ header {
     justify-content: center;
     border-radius: 5px;
     padding: 10px;
-    background-color: #252525;
+    background-color: var(--background);
 }
 /* H62/95 - menu li com hover */
 .menu li:hover {
-    background-color: #252525;
-    border-bottom: solid 3px rgb(11, 196, 226);
+    background-color: var(--background);
+    border-bottom: solid 3px var(--azul-claro);
 }
 /* H62/95 - menu li a */
 a {
@@ -256,13 +256,13 @@ a {
 @media only screen and (min-width: 1500px) {
     /* H22 - .logoRiot:hover */
     .logoSvgRiot:hover {
-        fill: rgb(255, 0, 0);
         transition: all 0.3s ease;
+        fill: var(--vermelho);
     }
     .logoRiot:hover .logoSetaRiot {
         rotate: 0deg;
-        fill: rgb(255, 0, 0);
         transition: all 0.3s ease;
+        fill: var(--vermelho);
     }
     /* H24/25 - .menuHeaderRiot checked e hover */
     .menuHeaderRiot:checked ~ .menuHeaderRiotLabelc::after {

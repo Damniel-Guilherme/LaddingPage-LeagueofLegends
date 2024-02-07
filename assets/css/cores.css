@@ -1,0 +1,10 @@
+:root {
+    --branco: #fff;
+    --preto: rgba(0, 0, 0);
+    --azul-claro: rgb(11, 196, 226);
+    --verde: rgb(51, 255, 0);
+    --vermelho: rgb(255, 0, 0);
+    --cinza:  rgb(167, 165, 165);
+    --cinza-escuro:  rgb(32, 32, 32);
+    --background: #252525;
+}
