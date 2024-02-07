@@ -47,12 +47,12 @@ Para instalar e utilizar o **LandingPage League of Legends**, siga estas etapas:
 
 1. **Clone o repositório:** 📜
 ```bash
-git clone https://github.com/seuusuario/LaddingPage-LeagueofLegends.git
+git clone https://github.com/seuusuario/LandingPage-LeagueofLegends.git
 ```
 
 2. **Acesse o diretório do projeto:** 📁
 ```bash
-cd LaddingPage-LeagueofLegends
+cd LandingPage-LeagueofLegends
 ```
 
 # Uso 📝
