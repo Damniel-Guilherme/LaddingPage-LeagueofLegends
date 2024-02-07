@@ -1,4 +1,4 @@
-# Landing page - League of Legends
+# Landing Page - League of Legends
 
 ## Descrição 📖
 
