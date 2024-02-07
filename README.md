@@ -1,13 +1,14 @@
 # Ladding Page - League of Legends
 
-## Descrição
+## Descrição 📖
 
 O **Projeto Landing Page League of Legends** é um site de landing page com temática do jogo League of Legends, desenvolvido com o propósito de aprendizado, seguindo o roadmap [RoadMap ETAPA 1 - HTML E CSS] PROJETO 1.
 
-## Tabela de Conteúdos
+## Tabela de Conteúdos 
 
   - [LaddingPage League of Legends](#laddingpage-league-of-legends)
   - [Descrição](#descrição)
+  - [Objetivo do Projeto](#objetivo-do-projeto)
   - [Demonstração](#demonstração)
   - [Instalação](#instalação)
   - [Uso](#uso)
@@ -25,45 +26,56 @@ O **Projeto Landing Page League of Legends** é um site de landing page com tem�
   - [Updates](#updates)
 
 
+## Objetivo do Projeto 🎯
+
+Objetivo Profissional do Projeto:
+
+O objetivo central deste projeto é promover a aquisição e aprimoramento dos conhecimentos em linguagens de marcação HTML e CSS, seguindo rigorosamente o roadmap disponibilizado em nossa página no GitHub.
+
+**Datas do Projeto:** 📅
+
+**Início:** [Data de Início do Projeto]
+**Término:** [Data de Término do Projeto]
+
 ## Demonstração
 
-![Ladding Page League of Legends](https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Demonstra%C3%A7%C3%A3o.webp?token=GHSAT0AAAAAACMMOYQYJMG7Y5S4FBWFFZDSZODVHMA)
+![Ladding Page League of Legends](https://media.discordapp.net/attachments/1204821752895635506/1204827423128948778/Demonstracao.webp?ex=65d625fa&is=65c3b0fa&hm=601865f50f41e8d3a21a0ab7f814d6980181376a722e37c980f2a8d9c053b373&=&format=webp&width=587&height=350)
 
-## Instalação
+## Instalação 📝⚙️
 
 Para instalar e utilizar o **LaddingPage League of Legends**, siga estas etapas:
 
-1. **Clone o repositório:**
+1. **Clone o repositório:** 📜
 ```bash
 git clone https://github.com/seuusuario/LaddingPage-LeagueofLegends.git
 ```
 
-2. **Acesse o diretório do projeto:**
+2. **Acesse o diretório do projeto:** 📁
 ```bash
 cd LaddingPage-LeagueofLegends
 ```
 
 # Uso
 
-Para maior comodidade, você pode acessar diretamente pelo site [Acesse o site aqui](https://laddingpage-leagueoflegends.vercel.app/). Também é possível fazer o download e abrir utilizando o Visual Studio Code, ou através do navegador.
+Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o site aqui](https://laddingpage-leagueoflegends.vercel.app/). Também é possível fazer o download e abrir utilizando o Visual Studio Code, ou através do navegador.
 
-## Linguagens Utilizadas
+## Linguagens Utilizadas 💻
 
 Neste projeto, utilizamos principalmente as seguintes linguagens:
 
 - **HTML:** Utilizado para estruturar e definir o conteúdo do nosso projeto web de forma semântica e acessível.
 - **CSS:** Utilizado para estilizar e formatar o conteúdo HTML, proporcionando uma apresentação visual atraente e consistente.
 
-## Ferramentas
+## Ferramentas 🧰🛠️
 
 - **VSCode:** Um editor de código fonte gratuito e altamente personalizável para desenvolvimento web.
 - **Google Chrome:** Um dos navegadores mais populares, ideal para testar e depurar projetos web.
 
-## Plugins
+## Plugins 🧩
 
 - **Live Server:** Um plugin para o VSCode que fornece um servidor de desenvolvimento com recarga automática para páginas web.
 
-## Testes
+## Testes 🔧
 
 Descreva os testes realizados para garantir a qualidade do projeto. Isso pode incluir testes de unidade, testes de integração, testes de aceitação, etc.
 
@@ -71,7 +83,7 @@ Descreva os testes realizados para garantir a qualidade do projeto. Isso pode in
 
 ![Ladding Page League of Legends](https://cdn.discordapp.com/attachments/1204821752895635506/1204821792179494932/Fotos_do_Projeto.gif?ex=65d620bb&is=65c3abbb&hm=dc51b6556a2e93c27393e71ae18acb3725f2bd36046dae5709eb6b3b439a204a&)
 
-## Aprendizados
+## Aprendizados 💡
 
 Durante o desenvolvimento deste projeto, aprendemos e praticamos diversas habilidades essenciais, incluindo:
 
@@ -87,7 +99,7 @@ Durante o desenvolvimento deste projeto, aprendemos e praticamos diversas habili
 
 Esses aprendizados foram fundamentais para o sucesso e qualidade do nosso projeto, fornecendo uma base sólida para futuros desenvolvimentos e contribuições.
 
-## Técnicas Aplicadas
+## Técnicas Aplicadas 📌
 
 Neste projeto, aplicamos várias técnicas de desenvolvimento web, incluindo:
 
@@ -99,12 +111,11 @@ Neste projeto, aplicamos várias técnicas de desenvolvimento web, incluindo:
 
 - **Design Responsivo e Mobile First":** No projeto, priorizamos o design responsivo e adotamos a abordagem mobile-first, garantindo total funcionalidade e estética em dispositivos móveis. Expandimos o design para dispositivos maiores, mantendo consistência e usabilidade em todas as plataformas, assegurando uma experiência otimizada para todos os usuários.
 
-## Dificuldades
+## Dificuldades 🚨
 
 Minha maior dificuldade foi com os menus de entrada (input) e a manipulação dos logos em formato SVG.
 
-
-## Contribuição
+## Contribuição 📑 
 
 A contribuição para o Título do Projeto é bem-vinda! Para contribuir, siga estas etapas:
 
@@ -118,21 +129,21 @@ A contribuição para o Título do Projeto é bem-vinda! Para contribuir, siga e
 
 Por favor, leia atentamente nossas diretrizes de contribuição antes de começar.
 
-## Licença
+## Licença 📄
 
 Este projeto está licenciado sob a Nome da Licença - veja o arquivo LICENSE para mais detalhes.
 
-## Contato
+## Contato ☎️
 
 Se você tiver alguma dúvida ou sugestão sobre o Título do Projeto, entre em contato:
 
-- danielguilhermetb@gmail.com 🙋‍♂️
+- danielguilhermetb@gmail.com 📧🙋‍♂️
 - Website 🌐
 - LinkedIn 💼
 
 Não hesite em nos contatar. Estamos sempre aqui para ajudar!
 
-## Updates
+## Updates 🔄
 
 Mantenha-se atualizado com as últimas novidades e atualizações do **Ladding Page League of Legends**:
 
