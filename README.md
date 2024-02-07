@@ -1,4 +1,4 @@
-# Ladding Page - League of Legends
+# Landing page - League of Legends
 
 ## Descrição 📖
 
@@ -6,7 +6,7 @@ O **Projeto Landing Page League of Legends** é um site de landing page com tem�
 
 ## Tabela de Conteúdos 
 
-  - [Ladding Page League of Legends](#laddingpage-league-of-legends)
+  - [Landing Page League of Legends](#landingpage-league-of-legends)
   - [Descrição](#descrição)
   - [Objetivo do Projeto](#objetivo-do-projeto)
   - [Demonstração](#demonstração)
@@ -43,7 +43,7 @@ O objetivo central deste projeto é promover a aquisição e aprimoramento dos c
 
 ## Instalação ⚙️
 
-Para instalar e utilizar o **LaddingPage League of Legends**, siga estas etapas:
+Para instalar e utilizar o **LandingPage League of Legends**, siga estas etapas:
 
 1. **Clone o repositório:** 📜
 ```bash
@@ -57,7 +57,7 @@ cd LaddingPage-LeagueofLegends
 
 # Uso 📝
 
-Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o site aqui](https://laddingpage-leagueoflegends.vercel.app/). Também é possível fazer o download e abrir utilizando o Visual Studio Code, ou através do navegador.
+Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o site aqui](https://landingpage-leagueoflegends.vercel.app/). Também é possível fazer o download e abrir utilizando o Visual Studio Code, ou através do navegador.
 
 ## Linguagens Utilizadas 💻
 
@@ -149,6 +149,6 @@ Não hesite em nos contatar. Estamos sempre aqui para ajudar!
 
 ## Updates 🔄
 
-Mantenha-se atualizado com as últimas novidades e atualizações do **Ladding Page League of Legends**:
+Mantenha-se atualizado com as últimas novidades e atualizações do **Landing Page League of Legends**:
 
 - [Histórico de Atualizações](#) [Insira o link para o histórico de atualizações aqui, se disponível.]
