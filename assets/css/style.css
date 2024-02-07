@@ -23,7 +23,9 @@
 }
 /* Configurações da Página */
 body {
-  max-width: 100vw;
+  width: 100vw;
+  min-width: 7680px;
+  min-width: 340px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,8 +1,10 @@
 /* header */
-
+header {
+    width: 100%;
+}
 /* H18 - header da página */
 .top {
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,11 +87,14 @@
 /* H45 - menuRiot menu input div das imagens */
 .menuRiotLogos {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 /* H46/H47 - menuRiot menu fake imagens */
 .menuRiotLogos > img {
     width: 100%;
+    height: 100%;
 }
 /* H52 - logo do lol */
 .logoLol {
@@ -97,11 +102,11 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    cursor: pointer;
 }
 /* H53 - logo lol imagem */
 .logoLol > img {
     width: 35px;
+    height: 100%;
     object-fit: contain;
 }
  /* H57 - menuHeader */
@@ -132,6 +137,7 @@
     font-size: 30px;
     margin-right: 10px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 /* menu-toggle:checked .menu-toggle-label */
 .menu-toggle:checked~.menu-toggle-label::after {
