@@ -62,8 +62,8 @@ header {
 }
 /* H27 - logo riot */
 .logoSvgRiot {
-    width: 103px;
-    height: 100%;
+    /* width: 103px;
+    height: 100%; */
     transition: all 0.3s ease;
     fill: var(--branco);
 }
@@ -105,8 +105,8 @@ header {
 }
 /* H53 - logo lol imagem */
 .logoLol > img {
-    width: 35px;
-    height: 100%;
+    /* width: 35px;
+    height: 100%; */
     object-fit: contain;
 }
  /* H57 - menuHeader */
@@ -191,7 +191,8 @@ a {
 }
 /* H88 - Seta li > Mais */
 .svgSetaMais {
-    width: 5px;
+    /* width: 5px;
+    height: 100%; */
     margin-left: 5px;
     margin-bottom: 3px;
     fill: #fff;
@@ -247,7 +248,7 @@ a {
 }
 /* H105 - logoLupa */
 .logoLupa {
-    width: 15px;
+    /* width: 15px; */
     fill: #fff;
 }
 /* H113 - botões no css componentes */
