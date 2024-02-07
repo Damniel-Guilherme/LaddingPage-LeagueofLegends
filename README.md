@@ -39,9 +39,9 @@ O objetivo central deste projeto é promover a aquisição e aprimoramento dos c
 
 ## Demonstração
 
-![Demonstração](https://media.discordapp.net/attachments/1204821752895635506/1204827423128948778/Demonstracao.webp?ex=65d625fa&is=65c3b0fa&hm=601865f50f41e8d3a21a0ab7f814d6980181376a722e37c980f2a8d9c053b373&=&format=webp&width=587&height=350)
+![Demonstração](https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/Demonstra%C3%A7%C3%A3o.webp?token=GHSAT0AAAAAACMMOYQYINNFJKPIKBSQ7FE6ZODWNNQ)
 
-## Instalação 📝⚙️
+## Instalação ⚙️
 
 Para instalar e utilizar o **LaddingPage League of Legends**, siga estas etapas:
 
@@ -55,7 +55,7 @@ git clone https://github.com/seuusuario/LaddingPage-LeagueofLegends.git
 cd LaddingPage-LeagueofLegends
 ```
 
-# Uso
+# Uso 📝
 
 Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o site aqui](https://laddingpage-leagueoflegends.vercel.app/). Também é possível fazer o download e abrir utilizando o Visual Studio Code, ou através do navegador.
 
@@ -133,7 +133,7 @@ Por favor, leia atentamente nossas diretrizes de contribuição antes de começa
 
 Este projeto está licenciado sob a Nome da Licença - veja o arquivo LICENSE para mais detalhes.
 
-## Contato ☎️
+## Contato 📧☎️
 
 Se você tiver alguma dúvida ou sugestão sobre o Título do Projeto, entre em contato:
 
