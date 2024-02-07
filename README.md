@@ -39,7 +39,7 @@ O objetivo central deste projeto é promover a aquisição e aprimoramento dos c
 
 ## Demonstração
 
-![Ladding Page League of Legends](https://media.discordapp.net/attachments/1204821752895635506/1204827423128948778/Demonstracao.webp?ex=65d625fa&is=65c3b0fa&hm=601865f50f41e8d3a21a0ab7f814d6980181376a722e37c980f2a8d9c053b373&=&format=webp&width=587&height=350)
+![Demonstração](https://media.discordapp.net/attachments/1204821752895635506/1204827423128948778/Demonstracao.webp?ex=65d625fa&is=65c3b0fa&hm=601865f50f41e8d3a21a0ab7f814d6980181376a722e37c980f2a8d9c053b373&=&format=webp&width=587&height=350)
 
 ## Instalação 📝⚙️
 
@@ -81,7 +81,7 @@ Descreva os testes realizados para garantir a qualidade do projeto. Isso pode in
 
 ## Fotos do Projeto
 
-![Ladding Page League of Legends]([https://cdn.discordapp.com/attachments/1204821752895635506/1204821792179494932/Fotos_do_Projeto.gif?ex=65d620bb&is=65c3abbb&hm=dc51b6556a2e93c27393e71ae18acb3725f2bd36046dae5709eb6b3b439a204a&](https://cdn.discordapp.com/attachments/1204821752895635506/1204821792179494932/Fotos_do_Projeto.gif?ex=65d620bb&is=65c3abbb&hm=dc51b6556a2e93c27393e71ae18acb3725f2bd36046dae5709eb6b3b439a204a&))
+![Fotos do Projeto]([https://cdn.discordapp.com/attachments/1204821752895635506/1204821792179494932/Fotos_do_Projeto.gif?ex=65d620bb&is=65c3abbb&hm=dc51b6556a2e93c27393e71ae18acb3725f2bd36046dae5709eb6b3b439a204a&](https://cdn.discordapp.com/attachments/1204821752895635506/1204821792179494932/Fotos_do_Projeto.gif?ex=65d620bb&is=65c3abbb&hm=dc51b6556a2e93c27393e71ae18acb3725f2bd36046dae5709eb6b3b439a204a&))
 
 ## Aprendizados 💡
 
