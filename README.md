@@ -6,7 +6,7 @@ O **Projeto Landing Page League of Legends** é um site de landing page com tem�
 
 ## Tabela de Conteúdos 
 
-  - [LaddingPage League of Legends](#laddingpage-league-of-legends)
+  - [Ladding Page League of Legends](#laddingpage-league-of-legends)
   - [Descrição](#descrição)
   - [Objetivo do Projeto](#objetivo-do-projeto)
   - [Demonstração](#demonstração)
