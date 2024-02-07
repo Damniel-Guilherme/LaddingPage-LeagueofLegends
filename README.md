@@ -81,7 +81,11 @@ Descreva os testes realizados para garantir a qualidade do projeto. Isso pode in
 
 ## Fotos do Projeto
 
-![Fotos do Projeto]([https://cdn.discordapp.com/attachments/1204821752895635506/1204821792179494932/Fotos_do_Projeto.gif?ex=65d620bb&is=65c3abbb&hm=dc51b6556a2e93c27393e71ae18acb3725f2bd36046dae5709eb6b3b439a204a&](https://cdn.discordapp.com/attachments/1204821752895635506/1204821792179494932/Fotos_do_Projeto.gif?ex=65d620bb&is=65c3abbb&hm=dc51b6556a2e93c27393e71ae18acb3725f2bd36046dae5709eb6b3b439a204a&))
+<img src="https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Foto%20do%20Projeto%20-%203.webp?token=GHSAT0AAAAAACMMOYQZAJBVWUUZ5EKIN4HKZODWV3A" width="550" height="300">  <img src="https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Foto%20do%20Projeto%20-%202.webp?token=GHSAT0AAAAAACMMOYQZBTMWU2TCZ7YUZCNOZODWV2A" width="550" height="300">
+
+
+| <img src="https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Foto%20do%20Projeto%20-%204.webp?token=GHSAT0AAAAAACMMOYQYWWAH2A2ZYHNXZECEZODWV3Q" width="200"> | <img src="https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Foto%20do%20Projeto%20-%205.webp?token=GHSAT0AAAAAACMMOYQYI3C7NHTJHYDM4TDUZODWV4A" width="200"> | <img src="https://raw.githubusercontent.com/Damniel-Guilherme/Damniel_/main/imgs%20uploads/%5BRoadMap%20ETAPA%201%20-%20HTML%20E%20CSS%5D%20PROJETO%201/Foto%20do%20Projeto%20-%206.webp?token=GHSAT0AAAAAACMMOYQYP275LRY3CKHJ36RYZODWV4Q" width="200"> |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Aprendizados 💡
 
