@@ -81,7 +81,7 @@ Descreva os testes realizados para garantir a qualidade do projeto. Isso pode in
 
 ## Fotos do Projeto
 
-<img src="https://imgur.com/06409a0e-09d6-45df-97ac-954bd80fc66d" width="550" height="300">  <img src="https://i.imgur.com/OTAtK0W.jpeg" width="550" height="300">
+<img src="https://i.imgur.com/EaFp2PJ.jpeg" width="550" height="300">  <img src="https://i.imgur.com/OTAtK0W.jpeg" width="550" height="300">
 
 
 | <img src="https://i.imgur.com/GuHpsEM.jpeg" width="200"> | <img src="https://i.imgur.com/xUEkLw0.jpeg" width="200"> | <img src="https://i.imgur.com/HhUPp2i.jpeg" width="200"> |
