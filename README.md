@@ -77,12 +77,13 @@ Neste projeto, utilizamos principalmente as seguintes linguagens:
 
 ## Testes 🔧
 
-Descreva os testes realizados para garantir a qualidade do projeto. Isso pode incluir testes de unidade, testes de integração, testes de aceitação, etc.
+Lighthouse Chrome Test
+
+<img src="https://i.imgur.com/YCzqfgM.jpeg" width="300px">
 
 ## Fotos do Projeto
 
 <img src="https://i.imgur.com/EaFp2PJ.jpeg" width="550" height="300">  <img src="https://i.imgur.com/OTAtK0W.jpeg" width="550" height="300">
-
 
 | <img src="https://i.imgur.com/GuHpsEM.jpeg" width="200"> | <img src="https://i.imgur.com/xUEkLw0.jpeg" width="200"> | <img src="https://i.imgur.com/HhUPp2i.jpeg" width="200"> |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
