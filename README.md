@@ -28,7 +28,7 @@ O **Projeto Landing Page League of Legends** é um site de landing page com tem�
 
 ## Objetivo do Projeto 🎯
 
-Objetivo Profissional do Projeto:
+**Objetivo Profissional do Projeto:**
 
 O objetivo central deste projeto é promover a aquisição e aprimoramento dos conhecimentos em linguagens de marcação HTML e CSS, seguindo rigorosamente o roadmap disponibilizado em nossa página no GitHub.
 
