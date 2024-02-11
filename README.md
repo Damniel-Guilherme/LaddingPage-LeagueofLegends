@@ -59,17 +59,33 @@ cd LandingPage-LeagueofLegends
 
 Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o site aqui](https://landingpage-leagueoflegends.vercel.app/). Também é possível fazer o download e abrir utilizando o Visual Studio Code, ou através do navegador.
 
+
 ## Linguagens Utilizadas 💻
-
-Neste projeto, utilizamos principalmente as seguintes linguagens:
-
-- **HTML:** Utilizado para estruturar e definir o conteúdo do nosso projeto web de forma semântica e acessível.
-- **CSS:** Utilizado para estilizar e formatar o conteúdo HTML, proporcionando uma apresentação visual atraente e consistente.
+<div>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="25" title="Google Chrome" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">HTML:</strong> Utilizado para estruturar e definir o conteúdo do nosso projeto web de forma semântica e acessível.
+  </div>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="25" title="CSS" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">CSS:</strong> Utilizado para estilizar e formatar o conteúdo HTML, proporcionando uma apresentação visual atraente e consistente.
+  </div>
+</div>
 
 ## Ferramentas 🧰🛠️
 
-- **VSCode:** Um editor de código fonte gratuito e altamente personalizável para desenvolvimento web.
-- **Google Chrome:** Um dos navegadores mais populares, ideal para testar e depurar projetos web.
+<div>
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="25" title="CSS" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">VSCode:</strong> Um editor de código fonte gratuito e altamente personalizável para desenvolvimento web.
+  </div>
+
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original-wordmark.svg" width="25" title="CSS" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">Google Chrome:</strong> Um dos navegadores mais populares, ideal para testar e depurar projetos web.
+  </div>
+
+  <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" width="25" title="CSS" style="margin-right: 10px; pointer-events: none;"/> <strong style="margin-right: 10px;">Git:</strong> Um sistema de controle de versão distribuído amplamente utilizado para o desenvolvimento colaborativo de projetos de software.
+  </div>
+</div>
+
 
 ## Plugins 🧩
 
@@ -81,10 +97,12 @@ Lighthouse Chrome Test
 
 <img src="https://i.imgur.com/YCzqfgM.jpeg" width="300px">
 
-## Fotos do Projeto
+## Preview do Projeto 
+**Versão Desktop**
 
 <img src="https://i.imgur.com/EaFp2PJ.jpeg" width="550" height="300">  <img src="https://i.imgur.com/OTAtK0W.jpeg" width="550" height="300">
 
+**Versão Mobile**
 | <img src="https://i.imgur.com/GuHpsEM.jpeg" width="200"> | <img src="https://i.imgur.com/xUEkLw0.jpeg" width="200"> | <img src="https://i.imgur.com/HhUPp2i.jpeg" width="200"> |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
