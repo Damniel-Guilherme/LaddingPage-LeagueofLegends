@@ -102,6 +102,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 5px;
+    pointer-events: none;
 }
 /* H53 - logo lol imagem */
 .logoLol > img {

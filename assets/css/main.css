@@ -32,6 +32,7 @@ main {
   width: 100%;
   height: 100%;
   max-width: 600px;
+  pointer-events: none;
 }
 /* H126 Texto da div league of legends */
 h2 {
@@ -56,6 +57,7 @@ h2 {
   width: 100%;
   height: 100%;
   max-width: 800px;
+  pointer-events: none;
 }
 /* H135 - principal dispositivos */
 .principal_dispositivos {
