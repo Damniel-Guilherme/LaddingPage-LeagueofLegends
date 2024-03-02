@@ -170,4 +170,4 @@ Não hesite em nos contatar. Estamos sempre aqui para ajudar!
 
 Mantenha-se atualizado com as últimas novidades e atualizações do **Landing Page League of Legends**:
 
-- [Histórico de Atualizações](#) [Insira o link para o histórico de atualizações aqui, se disponível.]
+- [Histórico de Atualizações](#) [**Sem Atualizações no Momento!!**]
