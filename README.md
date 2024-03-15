@@ -160,9 +160,9 @@ Este projeto está licenciado sob a Nome da Licença - veja o arquivo LICENSE pa
 
 Se você tiver alguma dúvida ou sugestão sobre o Título do Projeto, entre em contato:
 
-- danielguilhermetb@gmail.com 📧🙋‍♂️
-- [Website 🌐] (https://damniel-guilherme.github.io/portifolio-dev.damniel/)
-- LinkedIn 💼 [Daniel Guilherme](https://www.linkedin.com/in/damniel-guilherme-2b1600250/)
+- Email: [danielguilhermetb@gmail.com](mailto:danielguilhermetb@gmail.com) 📧🙋‍♂️
+- [Website 🌐](https://damniel-guilherme.github.io/portifolio-dev.damniel/) (Abre em nova aba)
+- LinkedIn 💼: [Daniel Guilherme](https://www.linkedin.com/in/damniel-guilherme-2b1600250/) (Abre em nova aba)
 
 Não hesite em nos contatar. Estamos sempre aqui para ajudar!
 
