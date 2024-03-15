@@ -124,7 +124,7 @@ Esses aprendizados foram fundamentais para o sucesso e qualidade do nosso projet
 
 ## ~~Técnicas Aplicadas~~  📌
 
-Neste projeto, ~~aplicamos~~  várias técnicas de desenvolvimento web, incluindo:
+Neste projeto,  ~~aplicamos~~  várias técnicas de desenvolvimento web, incluindo:
 
 - **Boas Práticas e Código Limpo:** O código foi escrito seguindo boas práticas de programação, com comentários claros para facilitar a compreensão e manutenção.
 - **Componentização:** Dividimos o site em componentes reutilizáveis, como header, main e footer, para promover a manutenção e escalabilidade do código.
