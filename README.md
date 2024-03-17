@@ -1,12 +1,12 @@
 <div align="center">
     <h1>Landing Page - League of Legends</h1>
     <div> 
-        <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Damniel-Guilherme/LandingPage-SmartWatchTrackMate" style="pointer-events: none;" />
-        <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Damniel-Guilherme/LandingPage-SmartWatchTrackMate" style="pointer-events: none;" />
-        <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Damniel-Guilherme/LandingPage-SmartWatchTrackMate" style="pointer-events: none;" />
-        <img alt="Github License" src="https://img.shields.io/github/license/Damniel-Guilherme/LandingPage-SmartWatchTrackMate" style="pointer-events: none;" />
-        <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Damniel-Guilherme/LandingPage-SmartWatchTrackMate" style="pointer-events: none;" />
-        <img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Damniel-Guilherme/LandingPage-SmartWatchTrackMate" style="pointer-events: none;" />
+        <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Damniel-Guilherme/LandingPage-LeagueofLegends" style="pointer-events: none;" />
+        <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Damniel-Guilherme/LandingPage-LeagueofLegends" style="pointer-events: none;" />
+        <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Damniel-Guilherme/LandingPage-LeagueofLegends" style="pointer-events: none;" />
+        <img alt="Github License" src="https://img.shields.io/github/license/Damniel-Guilherme/LandingPage-LeagueofLegends" style="pointer-events: none;" />
+        <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Damniel-Guilherme/LandingPage-LeagueofLegends" style="pointer-events: none;" />
+        <img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Damniel-Guilherme/LandingPage-LeagueofLegends" style="pointer-events: none;" />
     </div>
 </div>
 
