@@ -31,8 +31,8 @@ O **Projeto Landing Page League of Legends** é um site de landing page com tem�
 - [Aprendizados](#aprendizados)
 - [Técnicas Aplicadas](#técnicas-aplicadas)
 - [Dificuldades](#dificuldades)
-- [Contribuição](#contribuição)
 - [Licença](#licença)
+- [Contribuição](#contribuição)
 - [Contato](#contato)
 - [Updates](#updates)
 
