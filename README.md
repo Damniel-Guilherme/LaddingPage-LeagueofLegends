@@ -51,8 +51,8 @@ O objetivo central deste projeto é promover a aquisição e aprimoramento dos c
 ## Preview do Projeto
 
 <div style="display: flex; flex-direction: row;">
-        <img src="XX" alt="Imagem Mobile" width="100">
-        <img src="XX" alt="Imagem Desktop" width="250">
+        <img src="https://i.imgur.com/hU7wh4x.png" alt="Imagem Mobile" width="100">
+        <img src="https://i.imgur.com/p2CCs06.png" alt="Imagem Desktop" width="250">
 </div>
 
 
@@ -127,12 +127,8 @@ Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o si
 **Versão Mobile**
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="XX" width="100px">
-    <img src="XX" width="100px">
-    <img src="XX" width="100px">
-    <img src="XX" width="100px">
-    <img src="XX" width="100px">
-    <img src="XX" width="100px">
+    <img src="https://i.imgur.com/UGgtZMU.png" width="100px">
+    <img src="https://i.imgur.com/XkNuCDJ.png" width="100px">
 </div>
 
 <br>
@@ -140,19 +136,15 @@ Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o si
 **Versão Desktop**
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="XX" width="250px">
-    <img src="XX" width="250px">
-    <img src="XX" width="250px">
-    <img src="XX" width="250px">
-    <img src="XX" width="250px">
-    <img src="XX" width="250px">
+    <img src="https://i.imgur.com/UYhQCNi.png" width="250px">
+    <img src="https://i.imgur.com/1kjLFd4.png" width="250px">
 </div>
 
 ## Testes 🔧
 
 Lighthouse Chrome Test
 
-<img src="XX" width="300px">
+<img src="https://i.imgur.com/QLOpiY3.jpeg" width="300px">
 
 ## Aprendizados 💡
 
