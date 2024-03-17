@@ -72,7 +72,7 @@ cd LandingPage-LeagueofLegends
 
 ## Uso 💬
 
-Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o site aqui](https://landingpage-leagueoflegends.vercel.app/). Também é possível fazer o download e abrir utilizando o Visual Studio Code, ou através do navegador.
+Para maior comodidade, você pode acessar diretamente pelo site 🌐[Acesse o site aqui](https://landing-page-leagueof-legends.vercel.app/). Também é possível fazer o download e abrir utilizando o Visual Studio Code, ou através do navegador.
 
 ## Sistema Operacional 🖥️
 
