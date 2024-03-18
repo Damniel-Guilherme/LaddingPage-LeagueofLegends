@@ -22,7 +22,7 @@ O **Projeto Landing Page League of Legends** é um site de landing page com tem�
 - [Demonstração do Projeto](#Demonstração-Do-Projeto)
 - [Instalação](#instalação)
 - [Uso](#uso)
-- [Sistema Operacional](#sistema-operacional)  <!-- Corrigido o texto âncora -->
+- [Sistema Operacional](#sistema-operacional)
 - [Linguagens Utilizadas](#linguagens-utilizadas)
 - [Ferramentas](#ferramentas)
 - [Plugins](#plugins)
