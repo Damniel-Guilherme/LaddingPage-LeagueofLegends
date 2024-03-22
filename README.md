@@ -12,7 +12,7 @@
 
 ## Descrição 📝
 
-O **Projeto Landing Page League of Legends** é um site de landing page com temática do jogo League of Legends, desenvolvido com o propósito de aprendizado, seguindo o roadmap [RoadMap ETAPA 1 - HTML E CSS] PROJETO 1.
+O **Projeto Landing Page League of Legends** é um site desenvolvido com o propósito de aprendizado, seguindo o roadmap [RoadMap ETAPA 1 - HTML E CSS] PROJETO 1.
 
 ## Tabela de Conteúdos 
 
